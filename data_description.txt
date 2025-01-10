@@ -1,0 +1,103 @@
+	1.	customerID
+	•	Description : Identifiant unique pour chaque client.
+	•	Type : Texte (alphanumérique).
+
+
+	2.	gender
+	•	Description : Genre du client (Male ou Female).
+	•	Type : Catégorie.
+
+
+	3.	SeniorCitizen
+	•	Description : Indique si le client est un senior (0 = Non, 1 = Oui).
+	•	Type : Numérique (binaire).
+
+
+	4.	Partner
+	•	Description : Indique si le client a un partenaire (Yes ou No).
+	•	Type : Catégorie.
+
+
+	5.	Dependents
+	•	Description : Indique si le client a des personnes à charge (Yes ou No).
+	•	Type : Catégorie.
+
+
+	6.	tenure
+	•	Description : Durée de l’abonnement en mois.
+	•	Type : Numérique (entier).
+
+
+	7.	PhoneService
+	•	Description : Indique si le client a un service de téléphonie (Yes ou No).
+	•	Type : Catégorie.
+
+
+	8.	MultipleLines
+	•	Description : Indique si le client a plusieurs lignes téléphoniques (Yes, No, ou No phone service).
+	•	Type : Catégorie.
+
+
+	9.	InternetService
+	•	Description : Type de service Internet souscrit par le client (DSL, Fiber optic, ou No).
+	•	Type : Catégorie.
+
+
+	10.	OnlineSecurity
+	•	Description : Indique si le client a un service de sécurité en ligne (Yes, No, ou No internet service).
+	•	Type : Catégorie.
+
+
+	11.	OnlineBackup
+	•	Description : Indique si le client a un service de sauvegarde en ligne (Yes, No, ou No internet service).
+	•	Type : Catégorie.
+
+
+	12.	DeviceProtection
+	•	Description : Indique si le client a un service de protection des appareils (Yes, No, ou No internet service).
+	•	Type : Catégorie.
+
+
+	13.	TechSupport
+	•	Description : Indique si le client a un support technique (Yes, No, ou No internet service).
+	•	Type : Catégorie.
+
+
+	14.	StreamingTV
+	•	Description : Indique si le client a un service de streaming TV (Yes, No, ou No internet service).
+	•	Type : Catégorie.
+
+
+	15.	StreamingMovies
+	•	Description : Indique si le client a un service de streaming de films (Yes, No, ou No internet service).
+	•	Type : Catégorie.
+
+
+	16.	Contract
+	•	Description : Type de contrat souscrit par le client (Month-to-month, One year, Two year).
+	•	Type : Catégorie.
+
+
+	17.	PaperlessBilling
+	•	Description : Indique si le client utilise la facturation électronique (Yes ou No).
+	•	Type : Catégorie.
+
+
+	18.	PaymentMethod
+	•	Description : Méthode de paiement utilisée par le client (e.g., Electronic check, Mailed check).
+	•	Type : Catégorie.
+
+
+	19.	MonthlyCharges
+	•	Description : Montant facturé mensuellement au client.
+	•	Type : Numérique (flottant).
+
+
+	20.	TotalCharges
+	•	Description : Montant total facturé au client durant la durée de l’abonnement.
+	•	Type : Numérique (souvent flottant, mais peut contenir des valeurs manquantes).
+
+    
+	21.	Churn
+	•	Description : Indique si le client a résilié son abonnement (Yes ou No).
+	•	Type : Catégorie.
